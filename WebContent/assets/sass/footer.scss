@@ -1,0 +1,38 @@
+.footer{
+	.container{
+		margin-top: 30px;
+		.clear-hr{
+			clear: both;
+			border-bottom: 1px solid #ddd;
+		}
+		.box-footer.first{
+			padding-left: 0;
+			border: none;
+		}
+		.box-footer{
+			width: 17%;
+			float: left;
+			font-size: 16px;
+			min-height: 197px;
+			padding: 0 0 0 3%;
+			p{
+				margin-top: 10px;
+				margin-bottom: 10px;
+				font-weight: 600;
+				color: #4c4c4c;
+			}
+			.ul{
+				list-style: none;
+				padding: 0;
+				li{
+					a{
+						text-decoration: none;
+						line-height: 25px;
+					    font-size: 13px;
+					    color: #8c8c8c;
+					}
+				}
+			}			
+		}
+	}
+}

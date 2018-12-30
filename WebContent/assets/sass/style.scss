@@ -1,0 +1,17 @@
+@import "./variable.scss";
+@import "./bootstrap-grid.scss";
+@import "./fonts.scss";
+@import "./reset.scss";
+
+html{
+	font-size: 16px;
+	color : $textColor;
+	font-family: $fontFamily;
+}
+
+.body{
+	width: 100%;
+}
+@import "./header.scss";
+@import "./main.scss";
+@import "./footer.scss";
